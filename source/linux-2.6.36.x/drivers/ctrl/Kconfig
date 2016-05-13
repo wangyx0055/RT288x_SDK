@@ -1,0 +1,14 @@
+#
+# Test device configuration
+#
+
+#menuconfig Mobile_Ctrl
+
+#if Mobile_Ctrl
+
+config GPIO_MOBILE_CTRL
+	def_bool y
+#	bool "Mobile Driver"
+#	default y
+
+#endif
